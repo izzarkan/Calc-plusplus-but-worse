@@ -45,7 +45,7 @@ int main() {
 			break;
 			case 4:
 				ans = a % b;
-				typeOfEquation = "÷";
+				typeOfEquation = "Ã·";
 			break;
 		}
 	
