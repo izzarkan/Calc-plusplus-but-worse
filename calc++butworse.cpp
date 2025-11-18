@@ -1,14 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void wipeterminal(){ //clears the cli interface
-    #ifdef _WIN32
-    system("cls"); //for Windows
-    #else
-    system("clear"); //for UN*X (i use arch btw)
-    #endif
-}
-
 int main() {
 	char runAgain = 'y';
 	while (runAgain == 'y' || runAgain == 'Y') {
